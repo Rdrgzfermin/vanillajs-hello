@@ -13,7 +13,7 @@ let when = [
   "when I was sleeping",
   "while I was exercising",
   "during my lunch",
-  "while I was praying"
+  "while I was praying",
 ];
 
 function getRandomNumber(min, max) {
@@ -21,7 +21,7 @@ function getRandomNumber(min, max) {
 }
 
 function getRandom(anyArray) {
-  let max = anyArray - 1;
+  let max = anyArray.lenght - 1;
   let min = 0;
   let random = getRandomNumber(min, max);
   return anyArray[random];
